@@ -10,6 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class RecipeListComponent implements OnInit {
 
   recipes: Recipe[] = [
+    new Recipe( "A Test Recipe", "this is simply a test", "http://myrecipebox.co.nz/wp-content/uploads/2016/07/RecipeCarousel-Coconut-Curry-Soup.jpg"),
     new Recipe( "A Test Recipe", "this is simply a test", "http://myrecipebox.co.nz/wp-content/uploads/2016/07/RecipeCarousel-Coconut-Curry-Soup.jpg")
   ];
 
